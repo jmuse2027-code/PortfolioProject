@@ -1,0 +1,16 @@
+Mod 8 Notes
+A CSS Preprocessor is a scripting language that extend capabilities of regular CSS which allows developers to add Variables, Functions and Nested Rules, Two notable preprocessors are Sass and Less
+
+You can use a CSS preprocessor for better Maintainability, Reusability, Readability, and Efficiency
+
+How to use a CSS preprocessor
+1. Install a CSS preprocessor through a software package or a package manager
+2. Write code using the preprocessors syntax
+3. due to the preprocessors code not being able to be read by browsers directly, it will need to be transferred into regular CSS via either a command or automatically
+4. Link the CSS file to your HTML
+
+Sass is a CSS preprocessor known for having a rich feature set and powerful functionalities, Sass is best used in larger projects where it would normally be difficult to organize without it
+
+Less is a CSS preprocessor that is very similar to Sass, its easy to use variables make it best used in the hands of someone learning how to use a CSS preprocessor
+
+Sass and Less are very similar, which could make it hard to chose between them, and even then, its purely based on preferences, Sass uses a indentation based syntax while Less uses a CSS syntax with both curly braces and semicolons, Sass is compatible for all versions while Less is designed for CSS3, Sass has a larger community and Less has a smaller community 

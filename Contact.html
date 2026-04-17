@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Ensures padding doesn't affect total width */
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Contact Me 📧</h1>
+
+
+        <p>
+            Have a question or want to discuss a project? Please fill out the form below or send me an email directly. I look forward to hearing from you!
+        </p>
+
+
+        <form action="#" method="POST">
+            <h2>Send a Message</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+
+        <hr>
+
+
+        <div class="contact-info">
+            <h2>Direct Email</h2>
+            <p>
+                Prefer to email us directly? Click the link below:
+            </p>
+            <p>
+                <a href="mailto:muse1024cj@outlook.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20am%20contacting%20you%20regarding...">
+                    Email Me
+                </a>
+            </p>
+            <p>
+                           </p>
+        </div>
+    </div>
+
+
+</body>
+</html>
